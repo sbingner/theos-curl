@@ -1,0 +1,13 @@
+diff --git a/configure.ac b/configure.ac
+index c223a0436..adbb2fc46 100755
+--- a/configure.ac
++++ b/configure.ac
+@@ -896,7 +896,7 @@ else
+   fi
+ 
+   if test -z "$OPT_ZLIB" ; then
+-    CURL_CHECK_PKGCONFIG(zlib)
++#CURL_CHECK_PKGCONFIG(zlib)
+ 
+     if test "$PKGCONFIG" != "no" ; then
+       LIBS="`$PKGCONFIG --libs-only-l zlib` $LIBS"

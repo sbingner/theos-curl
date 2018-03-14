@@ -1,0 +1,11 @@
+Package: curl
+Name: cURL
+Version: 7.58.0
+Architecture: iphoneos-arm
+Description: flexible multi-protocol file transfers
+Homepage: http://curl.haxx.se/
+Maintainer: Samuel Bingner
+Author: Samuel Bingner
+Section: Networking
+Tag: purpose::console, role::hacker
+Priority: standard
